@@ -1,6 +1,9 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        String name = "Tiago";
-        System.out.println("Hello, World!" + name);
+      int nota = 40;
+       String resultado = nota >= 70 ? "aprovado" : "reprovado";
+        System.out.println("o aluno foi " + resultado);
+        
+
     }
 }
