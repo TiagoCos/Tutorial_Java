@@ -7,4 +7,8 @@ public class cachorro {
     public int altura;
     public double peso;
     public int tamanho_Do_Rabo;
+
+    public String pegar(){
+        return "bolinha";
+    }
 }   
