@@ -9,10 +9,11 @@ public class App {
          */
 
          //variavel de referencia
-
+      
          cachorro cachorro1 = new cachorro();
 
          cachorro1.altura = 25;
+        System.out.println(cachorro1.pegar());
          System.out.println(cachorro1.altura );
     }
 }
